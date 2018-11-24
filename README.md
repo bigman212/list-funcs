@@ -1,6 +1,10 @@
 # std-func
 Self-made library that contains functions to work with lists
 
+## Prequisites
+- Stack
+- GHC
+
 ## Install
 ```bash
 git clone https://github.com/bigman212/list-funcs.git
@@ -21,5 +25,5 @@ import Lib (
 add x = x + 1
 
 main :: IO()
-main = print lmap sum [1,2,3] -- output: [2,3,4]
+main = print lmap add [1,2,3] -- output: [2,3,4]
 ```
